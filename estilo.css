@@ -1,0 +1,230 @@
+/*Limar formataçõe*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*
+*** Layout ***
+*/
+#area-cabecalho{
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center;	
+}
+
+#area-logo{
+	padding: 25px;	
+}
+
+#area-menu{
+	padding-right:200px;
+	padding-right: 0px;	
+}
+
+/*#area-principal{
+	width: 1200px
+	height:2200;
+	margin-left:0px;
+	border:10px solid green;
+}*/
+
+
+#area-postagens{
+	width: 1035px;
+	height: 890px;
+	float: right;
+	
+	
+
+	
+}
+#area-lateral{
+	width: 180px;
+	height:893px;
+	margin-left: 0px;
+	background:#f7b600;
+	
+}
+	
+.postagem{	
+	background: white;
+	padding-left: 15px;
+	width: 500px;
+	height:275px;
+	display: inline;
+	border:1px solid orange ;
+}
+
+		
+
+}
+
+.conteudo-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.postagem-lateral{
+	font-size: 0.8em;
+	height: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #CCC;
+
+
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+	
+}
+
+/*Formatação dos links da area de postagem*/
+
+
+
+
+/*
+*** Formatações do menu***
+*/
+
+a{
+	color:#f7b600;
+	text-decoration: none;
+
+}
+
+a:link, a:visited {
+	color:#f7b600;
+	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color:#FFF;
+	padding: 12px 20px;
+}
+
+#area-cabecalho a:hover {
+	color:#f7b600;
+	background: #FFF;
+	text-decoration: none;
+}
+
+#area-menu-lateral a:link, #area-menu-lateral{
+	color:black;
+	background: #f7b600;
+}
+
+
+ 
+
+
+
+
+
+/*
+*** Formatações gerais***
+*/
+
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+h2{
+	color: #f7b600;
+}
+h3{
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+h4{
+	background: #f7b600;
+	margin-left: 1px;
+	margin-right:1px;	
+	margin-top: 0px;
+	width: 313px;
+	padding: 10px;
+	border:1px solid #f7b600;
+
+}
+
+.branco{
+	color: white;
+}
+
+.laranja{
+	color:#f7b600;
+}
+
+.rosa{
+	color:pink;
+	display: block;
+}
+
+
+
+.estilo-botao{
+	margin-bottom:30px;
+	padding-bottom: 30px
+
+	
+}
+
+.anuncio{
+	width: 300px;
+	height: 355px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-left: 20px;
+	border:1px solid gray;
+
+}
+.data-postagem{
+	font-size:0.7em;
+	border-bottom: 1px solid;	
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	display: block;
+	
+}
+.cabecalho-estoque{
+	clear: both;
+	text-align: center;
+	padding: 8px;
+	background: #CCC;
+}
+.botao{
+	margin-left:5px;
+	font-style: bold;
+	
+	color:black	;
+	background:#f7b600;
+	display:inline-block;
+}
+.formato-foto{
+	margin-left: 5px;
+	margin-right: 5px;
+	width:325px; 
+	height:250px;
+	border:1px solid #CCC;
+}
+.formato-preco{
+	margin-left: 5px;
+}
+
+
