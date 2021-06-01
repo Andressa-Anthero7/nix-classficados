@@ -295,7 +295,7 @@ h4{
  	padding: 0px;
  	margin-top:30px;
  	margin-bottom: 30px;
- 	background:url(../carros/logo4-whatsapp.png)no-repeat;	
+ 	background:url(logo4-whatsapp.png)no-repeat;	
  }
 
  .botaoface{
@@ -303,5 +303,5 @@ h4{
  	height: 80px;
  	margin-top: 30px;
  	margin-bottom: 30px;
- 	background: url(../carros/botao-face2.png)no-repeat;
+ 	background: url(botao-face2.png)no-repeat;
  }
